@@ -5,7 +5,7 @@ import streamlit as st
 #import sklearn
 import base64
 
-model = joblib.load('final_model_pipeline_test.pkl')
+model = joblib.load('final_model_pipeline_edit.pkl')
 def predict_damage_grade(gender, age, edu_level, income, bank_acc, no_floors_pre,
        no_floor_post, age_building, height_ft_pre_eq,
        height_ft_post_eq, land_surface_condition,foundation_type,
