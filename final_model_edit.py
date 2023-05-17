@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import streamlit as st
-import sklearn
+#import sklearn
 import base64
 
 model = joblib.load('final_model_pipeline_test.pkl')
